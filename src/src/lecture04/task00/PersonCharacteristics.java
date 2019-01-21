@@ -7,6 +7,7 @@ public class PersonCharacteristics {
     public static void main (String [] args) {
 
             short currentYear = 2018;
+
             short yearBorn;
             double weight;
             double height;
@@ -20,9 +21,7 @@ public class PersonCharacteristics {
             int info = sc.nextInt();
             sc.nextLine();
 
-            for(
-                    int i = 0;i<info;i++)
-            {
+            for (int i = 0;i<info;i++) {
                 String firstName = sc.nextLine();
                 String familyName = sc.nextLine();
 
