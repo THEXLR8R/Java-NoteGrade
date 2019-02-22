@@ -7,5 +7,17 @@
     </content>
     <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="JUnit5.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../junit-jupiter-api-5.4.0-RC1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../apiguardian-api-1.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../opentest4j-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../junit-platform-commons-1.4.0-RC1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
